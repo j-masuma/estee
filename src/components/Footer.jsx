@@ -1,4 +1,4 @@
-import { Button, Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import mail from "../assets/img/mail-icon.png";
 import call from "../assets/img/call.png";
 import logo from "../assets/img/f-Logo.png";
@@ -28,10 +28,10 @@ const Footer = () => {
               </Col>
 
               <Col lg={6} md={12} sm={12}>
-                <Button variant="danger">
-                  <img width={25} height={25} src={call} alt="Call" />
+                <button className=" button-styling">
+                  <img width={20} height={20} src={call} alt="Call" />{" "}
                   +91-8700913486
-                </Button>{" "}
+                </button>
               </Col>
             </Row>
           </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 
 import call from "../assets/img/call.png";
 import Navbar from "react-bootstrap/Navbar";
@@ -19,9 +18,10 @@ const Header = () => {
           <img width={25} height={25} src={mail} alt="Mail" />
           <span className=" p-2">PMS@esteeadvisors.com</span>
         </div>
-        <Button variant="danger">
+
+        <button className=" button-styling">
           <img width={20} height={20} src={call} alt="Call" /> +91-8700913486
-        </Button>{" "}
+        </button>
       </Navbar.Collapse>
     </Navbar>
   );

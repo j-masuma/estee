@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import icon1 from "../assets/img/iicon1.png";
 import icon2 from "../assets/img/iicon2.png";
 import icon3 from "../assets/img/iicon3.png";
@@ -46,7 +46,8 @@ const IAlpha = () => {
               </div>
             </Col>
           </Row>
-          <Button variant="danger" size="lg">
+
+          <button className=" button-styling">
             Download Fact Sheet
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +62,7 @@ const IAlpha = () => {
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
               />
             </svg>
-          </Button>{" "}
+          </button>
         </Col>
         <Col lg={6} md={12}>
           <div>

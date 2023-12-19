@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import hero from "../assets/img/hero-img.png";
 import clienticon from "../assets/img/client-icon.png";
 import assetsicon from "../assets/img/assets-icon.png";
@@ -18,7 +18,8 @@ const Hero = () => {
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.{" "}
           </p>
-          <Button variant="danger">
+
+          <button className=" button-styling">
             Get a Demo
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +34,7 @@ const Hero = () => {
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
               />
             </svg>
-          </Button>{" "}
+          </button>
         </div>
 
         <img width={1425} height={663} src={hero} alt="Hero" />
@@ -116,7 +117,8 @@ const Hero = () => {
                     label="I authorize Estee Advisors Pvt. Ltd. to contact me. This will override registry on the NDNC. As per SEBI guide Lines, minimum investment required is of ₹50 Lakhs."
                   />
                 </Form.Group>
-                <Button variant="danger">
+
+                <button className=" button-styling">
                   REQUEST CALLBACK
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +133,7 @@ const Hero = () => {
                       d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
                     />
                   </svg>
-                </Button>{" "}
+                </button>
               </Form>
             </div>
           </Col>

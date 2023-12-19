@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import lnp from "../assets/img/lngp.png";
 import chart from "../assets/img/chart (1).png";
 import tick from "../assets/img/tick-icon.png";
@@ -55,7 +55,7 @@ const LognAlphaB = () => {
                 </div>
               </div>
               <div className="p-4 pt-5">
-                <Button variant="danger" size="lg">
+                <button className=" button-styling">
                   Download Fact Sheet
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +70,7 @@ const LognAlphaB = () => {
                       d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
                     />
                   </svg>
-                </Button>{" "}
+                </button>
               </div>
             </div>
           </Col>

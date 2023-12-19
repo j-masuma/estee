@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row, Form, Button } from "react-bootstrap";
+import { Col, Container, Row, Form } from "react-bootstrap";
 import lady from "../assets/img/pretty-smiling-lady-transperent-glasses-wide-smile-white-shirt-with-headset-isolated-white-PhotoRoom 1.png";
 function Contact() {
   return (
@@ -60,7 +60,8 @@ function Contact() {
                     label="I authorize Estee Advisors Pvt. Ltd. to contact me. This will override registry on the NDNC. As per SEBI guide Lines, minimum investment required is of ₹50 Lakhs."
                   />
                 </Form.Group>
-                <Button variant="danger" size="lg">
+
+                <button className=" button-styling">
                   REQUEST CALLBACK
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +76,7 @@ function Contact() {
                       d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
                     />
                   </svg>
-                </Button>{" "}
+                </button>
               </Form>
             </div>
           </Col>
