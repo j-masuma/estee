@@ -1,6 +1,7 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 *{
   
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;
   font-weight: 500;
  
 }
@@ -9,7 +10,6 @@ p{
 }
 h1{
   font-weight: bolder;
-  
 }
 .call-btn{
   background-color: #A73A3A;
@@ -24,6 +24,16 @@ h1{
   background-repeat: 'no-repeat';
 }
 
+.icon-div{
+  margin-top: -60px;
+}
+.text-color{
+  color:blue;
+}
+h1{
+  font: bold;
+  font: 60px;
+}
 .contact{
   background-image: url('./assets/img/bg-callback.png');
   background-size: 'cover';
